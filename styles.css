@@ -1,14 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+/* General */
+body {
+    background-color: hsl(0, 0%, 98%);
+    font-family: 'Poppins', sans-serif;
+}
+
 /* Top Container*/
 .top {
     text-align: center;
     display: flex;
     flex-direction: column;
 }
+.top-title {
+    font-weight: 200;
+    color: hsl(229, 6%, 66%);
+}
 .bottom-title {
     margin-top: -1.5%;
+    color: hsl(234, 12%, 34%);
 }
 .msg-div {
     justify-content: center;
+    color: hsl(234, 12%, 34%);
 }
 .bottom-msg {
     margin-top: -1%;
@@ -29,10 +43,12 @@
 
 .card {
     border: solid 1px red;
+    height: 300px;
 }
 
 .card-body {
     border: solid 1px blue;
+    height: 290px;
 }
 
 .karma {
