@@ -86,3 +86,43 @@ body {
     margin-top: 2%;
     border-top: solid hsl(0, 78%, 62%) 5px;
 }
+
+/* MOBILE */
+@media only screen and (max-width: 375px) {
+    html, body {
+        height: 1200px;
+    }
+    .top {
+        width: 360px;
+    }
+    .top-title, .bottom-title {
+        font-size: 24px;
+    }
+    .bottom {
+        width: 350px;
+        height: 1200px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5%;
+        margin-left: -2%;
+    }
+    .card-body, .card {
+        width: 320px;
+        height: 250px;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    .calculator {
+        margin-top: -2%;
+    }
+    .supervisor, .karma {
+        margin-top: 2%;
+    }
+    .card-msg {
+        font-size: 15px;
+    }
+    img {
+        margin-right: 10%;
+        margin-top: -5%;
+    }
+}
